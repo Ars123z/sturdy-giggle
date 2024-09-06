@@ -110,7 +110,7 @@ a {
 @media screen and (max-width: 500px) {
   #header {
     width: 80%;
-    margin: 2% auto 2% auto;
+    margin: 5% auto 5% auto;
     text-align: center;
     word-spacing: -5px;
   }
@@ -118,7 +118,7 @@ a {
   #sub-header {
 
     width: 70%;
-    margin: 0px auto 10% auto;
+    margin: 0px auto 15% auto;
     text-align: center;
     word-spacing: -2px;
     line-height: 25px;
@@ -130,7 +130,7 @@ a {
   }
 
   .avatar {
-    margin: 7% auto 1.5% auto;
+    margin: 10% auto 1.5% auto;
   }
 
 }

@@ -111,7 +111,7 @@ a {
 @media screen and (max-width: 500px) {
   #header {
     width: 80%;
-    margin: 2% auto 2% auto;
+    margin: 10% auto 2% auto;
     text-align: center;
     word-spacing: -5px;
   }
