@@ -98,6 +98,10 @@ nav {
   font-size: 12px;
 }
 
+a {
+  text-decoration: none;
+  color: black
+}
 @media screen and (min-width: 1000px) {
   #body {
     margin: 20px;
