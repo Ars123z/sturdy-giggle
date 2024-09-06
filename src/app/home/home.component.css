@@ -1,0 +1,133 @@
+#body {
+  margin: 10px;
+}
+
+svg {
+  height: 20px;
+  width: 20px
+}
+
+
+.yoonche {
+  font-family: "YD Yoonche";
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoname {
+  display: flex;
+  width: fit-content;
+}
+
+.navigation>* {
+  margin-left: 30px;
+}
+
+.logoname>* {
+  margin-right: 12px;
+}
+
+.navigation {
+  display: flex;
+  width: fit-content;
+  list-style: none;
+}
+
+.container {
+  width: fit-content
+}
+
+.avatar {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin: 3% auto 1.5% auto;
+}
+
+.avatar>img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.hero>p {
+  text-align: center;
+}
+
+#header {
+  width: 40%;
+  margin: 2% auto 2% auto;
+  text-align: center;
+  word-spacing: -5px;
+}
+
+#sub-header {
+  width: 30%;
+  margin: 0px auto 6% auto;
+  text-align: center;
+  word-spacing: -2px;
+  line-height: 25px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero>button {
+  padding: 15px 25px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 1000px) {
+  #body {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #header {
+    width: 80%;
+    margin: 2% auto 2% auto;
+    text-align: center;
+    word-spacing: -5px;
+  }
+
+  #sub-header {
+
+    width: 70%;
+    margin: 0px auto 10% auto;
+    text-align: center;
+    word-spacing: -2px;
+    line-height: 25px;
+
+  }
+
+  .navigation>* {
+    margin-left: 10px;
+  }
+
+  .avatar {
+    margin: 7% auto 1.5% auto;
+  }
+
+}
